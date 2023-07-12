@@ -1,0 +1,6 @@
+By default, Log4j 2 looks for the configuration file in the classpath.
+If it doesn't find any configuration file, it falls back to its default configuration, which logs to the console with a basic format.
+
+If you want to customize the logging behavior,
+you can create a log4j2.xml file and place it in the classpath of your application.
+In the configuration file, you can define appenders, loggers, log levels, and other settings according to your requirements.
